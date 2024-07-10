@@ -9,7 +9,7 @@
 <noscript><strong>To use this tool, please <a href=http://enable-javascript.com/>enable JavaScript</a> and reload the page.</strong></noscript>
 <h2>Decoded:</h2>
 <textarea id="decoded" autofocus>Foo © bar 𝌆 baz ☃ qux</textarea>
-<input type="reset" value="Clear" style="float:right;" onclick="document.getElementById('decoded').value=''; document.getElementById('encoded').value='';">
+<button style="float:right;" onclick="document.getElementById('decoded').value=''; document.getElementById('encoded').value='';">Clear</button>
 <h2>Encoded: (<a href=#Foo%20%C2%A9%20bar%20%F0%9D%8C%86%20baz%20%E2%98%83%20qux id=permalink>permalink</a>)</h2>
 <textarea id="encoded">Foo &amp;#xA9; bar &amp;#x1D306; baz &amp;#x2603; qux</textarea>
 <div><label><input type=checkbox checked> only encode unsafe and non-ASCII characters</label></div>
